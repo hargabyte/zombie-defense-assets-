@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 200">
+  <!-- Background -->
+  <rect width="700" height="200" fill="#1C2833" opacity="0.1"/>
+  
+  <!-- Main Barricade Structure (flat on ground, top-down view) -->
+  <rect x="20" y="85" width="660" height="40" fill="#8B4513"/>
+  
+  <!-- Wooden Planks (from top-down perspective) -->
+  <rect x="30" y="80" width="120" height="50" fill="#A0522D"/>
+  <rect x="190" y="80" width="120" height="50" fill="#A0522D"/>
+  <rect x="350" y="80" width="120" height="50" fill="#A0522D"/>
+  <rect x="510" y="80" width="120" height="50" fill="#A0522D"/>
+  
+  <!-- Metal Reinforcements -->
+  <rect x="80" y="75" width="50" height="60" fill="#A9A9A9" opacity="0.7"/>
+  <rect x="240" y="75" width="50" height="60" fill="#A9A9A9" opacity="0.7"/>
+  <rect x="400" y="75" width="50" height="60" fill="#A9A9A9" opacity="0.7"/>
+  <rect x="560" y="75" width="50" height="60" fill="#A9A9A9" opacity="0.7"/>
+  
+  <!-- Nails and Hardware -->
+  <circle cx="50" cy="90" r="4" fill="#C0C0C0"/>
+  <circle cx="70" cy="100" r="4" fill="#C0C0C0"/>
+  <circle cx="90" cy="110" r="4" fill="#C0C0C0"/>
+  <circle cx="110" cy="95" r="4" fill="#C0C0C0"/>
+  
+  <circle cx="210" cy="90" r="4" fill="#C0C0C0"/>
+  <circle cx="230" cy="100" r="4" fill="#C0C0C0"/>
+  <circle cx="250" cy="110" r="4" fill="#C0C0C0"/>
+  <circle cx="270" cy="95" r="4" fill="#C0C0C0"/>
+  
+  <circle cx="370" cy="90" r="4" fill="#C0C0C0"/>
+  <circle cx="390" cy="100" r="4" fill="#C0C0C0"/>
+  <circle cx="410" cy="110" r="4" fill="#C0C0C0"/>
+  <circle cx="430" cy="95" r="4" fill="#C0C0C0"/>
+  
+  <circle cx="530" cy="90" r="4" fill="#C0C0C0"/>
+  <circle cx="550" cy="100" r="4" fill="#C0C0C0"/>
+  <circle cx="570" cy="110" r="4" fill="#C0C0C0"/>
+  <circle cx="590" cy="95" r="4" fill="#C0C0C0"/>
+  
+  <!-- Damage Spikes -->
+  <path d="M40 80 L45 60 L50 80" fill="#A9A9A9" stroke="#777" stroke-width="1"/>
+  <path d="M60 80 L65 60 L70 80" fill="#A9A9A9" stroke="#777" stroke-width="1"/>
+  <path d="M100 80 L105 60 L110 80" fill="#A9A9A9" stroke="#777" stroke-width="1"/>
+  <path d="M120 80 L125 60 L130 80" fill="#A9A9A9" stroke="#777" stroke-width="1"/>
+  
+  <path d="M200 80 L205 60 L210 80" fill="#A9A9A9" stroke="#777" stroke-width="1"/>
+  <path d="M220 80 L225 60 L230 80" fill="#A9A9A9" stroke="#777" stroke-width="1"/>
+  <path d="M260 80 L265 60 L270 80" fill="#A9A9A9" stroke="#777" stroke-width="1"/>
+  <path d="M280 80 L285 60 L290 80" fill="#A9A9A9" stroke="#777" stroke-width="1"/>
+  
+  <path d="M360 80 L365 60 L370 80" fill="#A9A9A9" stroke="#777" stroke-width="1"/>
+  <path d="M380 80 L385 60 L390 80" fill="#A9A9A9" stroke="#777" stroke-width="1"/>
+  <path d="M420 80 L425 60 L430 80" fill="#A9A9A9" stroke="#777" stroke-width="1"/>
+  <path d="M440 80 L445 60 L450 80" fill="#A9A9A9" stroke="#777" stroke-width="1"/>
+  
+  <path d="M520 80 L525 60 L530 80" fill="#A9A9A9" stroke="#777" stroke-width="1"/>
+  <path d="M540 80 L545 60 L550 80" fill="#A9A9A9" stroke="#777" stroke-width="1"/>
+  <path d="M580 80 L585 60 L590 80" fill="#A9A9A9" stroke="#777" stroke-width="1"/>
+  <path d="M600 80 L605 60 L610 80" fill="#A9A9A9" stroke="#777" stroke-width="1"/>
+  
+  <!-- Barbed Wire (Advanced Upgrade) -->
+  <path d="M20 50 C60 40, 100 60, 140 50 C180 40, 220 60, 260 50 C300 40, 340 60, 380 50 C420 40, 460 60, 500 50 C540 40, 580 60, 620 50 C660 40, 700 60, 740 50" stroke="#C0C0C0" stroke-width="2" fill="none" opacity="0.7"/>
+  
+  <!-- Barbed Wire Barbs -->
+  <path d="M40 45 L40 55 M80 45 L80 55 M120 45 L120 55 M160 45 L160 55 M200 45 L200 55 M240 45 L240 55 M280 45 L280 55 M320 45 L320 55 M360 45 L360 55 M400 45 L400 55 M440 45 L440 55 M480 45 L480 55 M520 45 L520 55 M560 45 L560 55 M600 45 L600 55 M640 45 L640 55 M680 45 L680 55" stroke="#C0C0C0" stroke-width="1" opacity="0.7"/>
+  
+  <!-- Wood Grain Detail -->
+  <path d="M50 80 L50 130" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+  <path d="M70 80 L70 130" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+  <path d="M90 80 L90 130" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+  <path d="M110 80 L110 130" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+  
+  <path d="M210 80 L210 130" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+  <path d="M230 80 L230 130" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+  <path d="M250 80 L250 130" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+  <path d="M270 80 L270 130" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+  
+  <path d="M370 80 L370 130" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+  <path d="M390 80 L390 130" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+  <path d="M410 80 L410 130" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+  <path d="M430 80 L430 130" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+  
+  <path d="M530 80 L530 130" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+  <path d="M550 80 L550 130" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+  <path d="M570 80 L570 130" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+  <path d="M590 80 L590 130" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Damage Area -->
+  <path d="M300 85 L320 125" stroke="#8B4513" stroke-width="5"/>
+  <path d="M310 85 L330 125" stroke="#8B4513" stroke-width="5"/>
+  <path d="M320 85 L340 125" stroke="#8B4513" stroke-width="5"/>
+  
+  <!-- Enhanced Area Labels -->
+  <text x="330" y="160" font-family="Arial" font-size="14" fill="#ECF0F1" text-anchor="middle">REINFORCED BARRICADE WITH SPIKES & BARBED WIRE</text>
+  <text x="330" y="180" font-family="Arial" font-size="12" fill="#ECF0F1" opacity="0.8" text-anchor="middle">Premium Zombie Defense System</text>

@@ -1,0 +1,85 @@
+graph TD
+    START[Start Game] --> PISTOL[Pistol]
+    START --> BBASIC[Basic Barricade]
+    START --> PLAYER[Player]
+    
+    %% Weapon Upgrade Paths - All Available from Start
+    PISTOL --> PISTOL_DMG[Pistol: Enhanced Damage]
+    PISTOL --> PISTOL_SPEED[Pistol: Rapid Fire]
+    PISTOL_DMG --> PISTOL_DMG2[Pistol: Maximum Damage]
+    PISTOL_SPEED --> PISTOL_SPEED2[Pistol: Maximum Speed]
+    
+    SHOTGUN[Shotgun] --> SHOTGUN_DMG[Shotgun: Enhanced Damage]
+    SHOTGUN --> SHOTGUN_SPREAD[Shotgun: Wider Spread]
+    SHOTGUN_DMG --> SHOTGUN_DMG2[Shotgun: Maximum Damage]
+    SHOTGUN_SPREAD --> SHOTGUN_SPREAD2[Shotgun: Maximum Spread]
+    
+    ASSAULT[Assault Rifle] --> ASSAULT_DMG[AR: Enhanced Damage]
+    ASSAULT --> ASSAULT_SPEED[AR: Rapid Fire]
+    ASSAULT_DMG --> ASSAULT_DMG2[AR: Maximum Damage]
+    ASSAULT_SPEED --> ASSAULT_SPEED2[AR: Maximum Speed]
+    
+    FLAME[Flamethrower] --> FLAME_DMG[Flame: Enhanced Damage]
+    FLAME --> FLAME_RANGE[Flame: Extended Range]
+    FLAME_DMG --> FLAME_DMG2[Flame: Maximum Damage]
+    FLAME_RANGE --> FLAME_RANGE2[Flame: Maximum Range]
+    
+    ROCKET[Rocket Launcher] --> ROCKET_DMG[Rocket: Enhanced Damage]
+    ROCKET --> ROCKET_SPLASH[Rocket: Wider Splash]
+    ROCKET_DMG --> ROCKET_DMG2[Rocket: Maximum Damage]
+    ROCKET_SPLASH --> ROCKET_SPLASH2[Rocket: Maximum Splash]
+    
+    TESLA[Tesla Coil] --> TESLA_DMG[Tesla: Enhanced Damage]
+    TESLA --> TESLA_CHAIN[Tesla: Extra Chain Targets]
+    TESLA_DMG --> TESLA_DMG2[Tesla: Maximum Damage]
+    TESLA_CHAIN --> TESLA_CHAIN2[Tesla: Maximum Chains]
+    
+    %% Unlock paths with costs
+    START -->|500 Points| SHOTGUN
+    START -->|1000 Points| ASSAULT
+    START -->|1500 Points| FLAME
+    START -->|2000 Points| ROCKET
+    START -->|2500 Points| TESLA
+    
+    %% Barricade Upgrade Paths
+    BBASIC --> BHEAL[Barricade: Repair]
+    BBASIC --> BREINFORCE[Barricade: Metal Reinforcement]
+    BREINFORCE --> BREINFORCE2[Barricade: Double Reinforcement]
+    BREINFORCE2 --> BREINFORCE3[Barricade: Maximum Reinforcement]
+    
+    BBASIC -->|1500 Points| BSPECIAL[Special Barricade Upgrades]
+    BSPECIAL --> BSPIKES[Barricade: Damage Spikes]
+    BSPECIAL --> BWIRE[Barricade: Barbed Wire]
+    BSPECIAL --> BTRAP[Barricade: Zombie Trap]
+    
+    BSPIKES --> BSPIKES2[Spikes: Enhanced Damage]
+    BWIRE --> BWIRE2[Wire: Enhanced Range]
+    BTRAP --> BTRAP2[Trap: Enhanced Capacity]
+    
+    %% Player Upgrades
+    PLAYER --> PSPEED[Player: Enhanced Speed]
+    PLAYER --> PHEALTH[Player: Enhanced Health]
+    PLAYER --> PRELOAD[Player: Quick Reload]
+    PLAYER --> PRESIST[Player: Damage Resistance]
+    PLAYER --> PSTAMINA[Player: Enhanced Stamina]
+    
+    PSPEED --> PSPEED2[Speed: Maximum]
+    PHEALTH --> PHEALTH2[Health: Maximum]
+    PRELOAD --> PRELOAD2[Reload: Maximum]
+    PRESIST --> PRESIST2[Resistance: Maximum]
+    PSTAMINA --> PSTAMINA2[Stamina: Maximum]
+    
+    PLAYER -->|3000 Points| PSPECIAL[Special Abilities]
+    PSPECIAL --> PGRENADE[Tactical Grenade]
+    PSPECIAL --> PBOOST[Adrenaline Boost]
+    
+    classDef default fill:#2C3E50,stroke:#34495E,color:#ECF0F1
+    classDef weapon fill:#E74C3C,stroke:#C0392B,color:white
+    classDef barricade fill:#F39C12,stroke:#D35400,color:white
+    classDef player fill:#3498DB,stroke:#2980B9,color:white
+    
+    class PISTOL,SHOTGUN,ASSAULT,FLAME,ROCKET,TESLA,PISTOL_DMG,PISTOL_SPEED,PISTOL_DMG2,PISTOL_SPEED2,SHOTGUN_DMG,SHOTGUN_SPREAD,SHOTGUN_DMG2,SHOTGUN_SPREAD2,ASSAULT_DMG,ASSAULT_SPEED,ASSAULT_DMG2,ASSAULT_SPEED2,FLAME_DMG,FLAME_RANGE,FLAME_DMG2,FLAME_RANGE2,ROCKET_DMG,ROCKET_SPLASH,ROCKET_DMG2,ROCKET_SPLASH2,TESLA_DMG,TESLA_CHAIN,TESLA_DMG2,TESLA_CHAIN2 weapon
+    
+    class BBASIC,BHEAL,BREINFORCE,BREINFORCE2,BREINFORCE3,BSPECIAL,BSPIKES,BWIRE,BTRAP,BSPIKES2,BWIRE2,BTRAP2 barricade
+    
+    class PLAYER,PSPEED,PHEALTH,PRELOAD,PRESIST,PSTAMINA,PSPEED2,PHEALTH2,PRELOAD2,PRESIST2,PSTAMINA2,PSPECIAL,PGRENADE,PBOOST player

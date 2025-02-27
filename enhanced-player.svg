@@ -1,0 +1,280 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#1C2833" opacity="0.1"/>
+  
+  <!-- TITLE -->
+  <text x="200" y="40" font-family="Arial" font-size="20" fill="#3498DB" text-anchor="middle" font-weight="bold">ENHANCED SOLDIER</text>
+  
+  <!-- 8 DIRECTIONS (ENHANCED) -->
+  
+  <!-- UP -->
+  <g transform="translate(90, 140)">
+    <!-- Body/Uniform with Enhanced Armor -->
+    <circle cx="0" cy="0" r="20" fill="#3A539B"/>
+    <path d="M-20 -5 C-20 -13, 20 -13, 20 -5" fill="#5D6D7E" opacity="0.6" stroke="#3498DB" stroke-width="1"/>
+    <path d="M-20 5 C-20 13, 20 13, 20 5" fill="#5D6D7E" opacity="0.6" stroke="#3498DB" stroke-width="1"/>
+    
+    <!-- Helmet with Enhanced Visor -->
+    <path d="M-15 -5 C-15 -20, 15 -20, 15 -5" fill="#34495E" stroke="#3498DB" stroke-width="1"/>
+    
+    <!-- Shoulder Pads (Enhanced) -->
+    <path d="M-16 -5 L-25 -2 L-23 5 L-16 8" fill="#5D6D7E" stroke="#3498DB" stroke-width="1"/>
+    <path d="M16 -5 L25 -2 L23 5 L16 8" fill="#5D6D7E" stroke="#3498DB" stroke-width="1"/>
+    
+    <!-- Head -->
+    <circle cx="0" cy="-5" r="10" fill="#F5D76E"/>
+    
+    <!-- Face (back of head from this angle) -->
+    <path d="M-4 -5 C-4 -8, 4 -8, 4 -5" fill="#F5D76E" stroke="#E4C55E" stroke-width="0.5"/>
+    
+    <!-- Enhanced Belt with Pouches -->
+    <path d="M-12 10 L12 10" stroke="#34495E" stroke-width="4"/>
+    <rect x="-12" y="8" width="4" height="6" fill="#34495E" rx="1"/>
+    <rect x="8" y="8" width="4" height="6" fill="#34495E" rx="1"/>
+    
+    <!-- Legs with Enhanced Knee Pads -->
+    <path d="M-8 12 L-10 25" stroke="#2C3E50" stroke-width="6"/>
+    <path d="M8 12 L10 25" stroke="#2C3E50" stroke-width="6"/>
+    <ellipse cx="-9" cy="17" rx="4" ry="2" fill="#5D6D7E" stroke="#3498DB" stroke-width="0.5"/>
+    <ellipse cx="9" cy="17" rx="4" ry="2" fill="#5D6D7E" stroke="#3498DB" stroke-width="0.5"/>
+    
+    <!-- Direction Label -->
+    <text x="0" y="45" font-family="Arial" font-size="10" fill="#ECF0F1" text-anchor="middle">UP</text>
+  </g>
+  
+  <!-- UP-RIGHT -->
+  <g transform="translate(190, 140)">
+    <!-- Body/Uniform with Enhanced Armor -->
+    <circle cx="0" cy="0" r="20" fill="#3A539B"/>
+    <path d="M-20 -5 C-15 -13, 20 -13, 20 -5" fill="#5D6D7E" opacity="0.6" stroke="#3498DB" stroke-width="1"/>
+    <path d="M-20 5 C-15 13, 20 13, 20 5" fill="#5D6D7E" opacity="0.6" stroke="#3498DB" stroke-width="1"/>
+    
+    <!-- Helmet with Enhanced Visor -->
+    <path d="M-10 -10 C-10 -20, 10 -20, 12 -8" fill="#34495E" stroke="#3498DB" stroke-width="1"/>
+    
+    <!-- Shoulder Pads (Enhanced) -->
+    <path d="M-16 -5 L-25 -2 L-23 5 L-16 8" fill="#5D6D7E" stroke="#3498DB" stroke-width="1"/>
+    <path d="M12 -5 L18 -6 L18 2 L14 5" fill="#5D6D7E" stroke="#3498DB" stroke-width="1"/>
+    
+    <!-- Head -->
+    <circle cx="0" cy="-5" r="10" fill="#F5D76E"/>
+    
+    <!-- Face -->
+    <circle cx="3" cy="-7" r="1.5" fill="#34495E"/> <!-- Eye -->
+    <path d="M0 -3 L5 -2" stroke="#34495E" stroke-width="1"/> <!-- Mouth -->
+    
+    <!-- Enhanced Belt with Pouches -->
+    <path d="M-12 10 L12 10" stroke="#34495E" stroke-width="4"/>
+    <rect x="-12" y="8" width="4" height="6" fill="#34495E" rx="1"/>
+    <rect x="8" y="8" width="4" height="6" fill="#34495E" rx="1"/>
+    
+    <!-- Legs with Enhanced Knee Pads -->
+    <path d="M-8 12 L-10 25" stroke="#2C3E50" stroke-width="6"/>
+    <path d="M8 12 L12 25" stroke="#2C3E50" stroke-width="6"/>
+    <ellipse cx="-9" cy="17" rx="4" ry="2" fill="#5D6D7E" stroke="#3498DB" stroke-width="0.5"/>
+    <ellipse cx="10" cy="17" rx="4" ry="2" fill="#5D6D7E" stroke="#3498DB" stroke-width="0.5"/>
+    
+    <!-- Direction Label -->
+    <text x="0" y="45" font-family="Arial" font-size="10" fill="#ECF0F1" text-anchor="middle">UP-RIGHT</text>
+  </g>
+  
+  <!-- RIGHT -->
+  <g transform="translate(290, 140)">
+    <!-- Body/Uniform with Enhanced Armor -->
+    <circle cx="0" cy="0" r="20" fill="#3A539B"/>
+    <path d="M-10 -10 C-10 -15, 10 -15, 10 -10" fill="#5D6D7E" opacity="0.6" stroke="#3498DB" stroke-width="1"/>
+    <path d="M-10 10 C-10 15, 10 15, 10 10" fill="#5D6D7E" opacity="0.6" stroke="#3498DB" stroke-width="1"/>
+    
+    <!-- Helmet with Enhanced Visor -->
+    <path d="M-8 -12 C-8 -20, 12 -20, 12 -10" fill="#34495E" stroke="#3498DB" stroke-width="1"/>
+    
+    <!-- Shoulder Pads (Enhanced) -->
+    <path d="M-12 -5 L-16 -6 L-16 2 L-14 5" fill="#5D6D7E" stroke="#3498DB" stroke-width="1"/>
+    <path d="M12 -5 L18 -6 L18 2 L14 5" fill="#5D6D7E" stroke="#3498DB" stroke-width="1"/>
+    
+    <!-- Head -->
+    <circle cx="2" cy="-5" r="10" fill="#F5D76E"/>
+    
+    <!-- Face -->
+    <circle cx="6" cy="-5" r="1.5" fill="#34495E"/> <!-- Eye -->
+    <path d="M2 -1 L7 -1" stroke="#34495E" stroke-width="1"/> <!-- Mouth -->
+    
+    <!-- Enhanced Belt with Pouches -->
+    <path d="M-10 10 L10 10" stroke="#34495E" stroke-width="4"/>
+    <rect x="-10" y="8" width="4" height="6" fill="#34495E" rx="1"/>
+    <rect x="6" y="8" width="4" height="6" fill="#34495E" rx="1"/>
+    
+    <!-- Legs with Enhanced Knee Pads -->
+    <path d="M-5 12 L-5 25" stroke="#2C3E50" stroke-width="6"/>
+    <path d="M5 12 L5 25" stroke="#2C3E50" stroke-width="6"/>
+    <ellipse cx="-5" cy="17" rx="4" ry="2" fill="#5D6D7E" stroke="#3498DB" stroke-width="0.5"/>
+    <ellipse cx="5" cy="17" rx="4" ry="2" fill="#5D6D7E" stroke="#3498DB" stroke-width="0.5"/>
+    
+    <!-- Direction Label -->
+    <text x="0" y="45" font-family="Arial" font-size="10" fill="#ECF0F1" text-anchor="middle">RIGHT</text>
+  </g>
+  
+  <!-- DOWN-RIGHT -->
+  <g transform="translate(90, 240)">
+    <!-- Body/Uniform with Enhanced Armor -->
+    <circle cx="0" cy="0" r="20" fill="#3A539B"/>
+    <path d="M-15 -10 C-15 -15, 15 -15, 15 -10" fill="#5D6D7E" opacity="0.6" stroke="#3498DB" stroke-width="1"/>
+    <path d="M-15 10 C-15 15, 15 15, 15 10" fill="#5D6D7E" opacity="0.6" stroke="#3498DB" stroke-width="1"/>
+    
+    <!-- Helmet with Enhanced Visor -->
+    <path d="M-8 -12 C-8 -20, 12 -20, 12 -10" fill="#34495E" stroke="#3498DB" stroke-width="1"/>
+    
+    <!-- Shoulder Pads (Enhanced) -->
+    <path d="M-12 -5 L-16 -6 L-16 2 L-14 5" fill="#5D6D7E" stroke="#3498DB" stroke-width="1"/>
+    <path d="M12 -5 L18 -6 L18 2 L14 5" fill="#5D6D7E" stroke="#3498DB" stroke-width="1"/>
+    
+    <!-- Head -->
+    <circle cx="2" cy="-5" r="10" fill="#F5D76E"/>
+    
+    <!-- Face -->
+    <circle cx="6" cy="-5" r="1.5" fill="#34495E"/> <!-- Eye -->
+    <path d="M2 -1 L7 -1" stroke="#34495E" stroke-width="1"/> <!-- Mouth -->
+    
+    <!-- Enhanced Belt with Pouches -->
+    <path d="M-12 10 L12 10" stroke="#34495E" stroke-width="4"/>
+    <rect x="-12" y="8" width="4" height="6" fill="#34495E" rx="1"/>
+    <rect x="8" y="8" width="4" height="6" fill="#34495E" rx="1"/>
+    
+    <!-- Legs (positioned for facing down-right) -->
+    <path d="M-8 12 L-12 25" stroke="#2C3E50" stroke-width="6"/>
+    <path d="M8 12 L10 25" stroke="#2C3E50" stroke-width="6"/>
+    <ellipse cx="-10" cy="17" rx="4" ry="2" fill="#5D6D7E" stroke="#3498DB" stroke-width="0.5"/>
+    <ellipse cx="9" cy="17" rx="4" ry="2" fill="#5D6D7E" stroke="#3498DB" stroke-width="0.5"/>
+    
+    <!-- Direction Label -->
+    <text x="0" y="45" font-family="Arial" font-size="10" fill="#ECF0F1" text-anchor="middle">DOWN-RIGHT</text>
+  </g>
+  
+  <!-- DOWN -->
+  <g transform="translate(190, 240)">
+    <!-- Body/Uniform with Enhanced Armor -->
+    <circle cx="0" cy="0" r="20" fill="#3A539B"/>
+    <path d="M-15 -10 C-15 -15, 15 -15, 15 -10" fill="#5D6D7E" opacity="0.6" stroke="#3498DB" stroke-width="1"/>
+    <path d="M-15 10 C-15 15, 15 15, 15 10" fill="#5D6D7E" opacity="0.6" stroke="#3498DB" stroke-width="1"/>
+    
+    <!-- Helmet with Enhanced Visor -->
+    <path d="M-12 -8 C-12 -18, 12 -18, 12 -8" fill="#34495E" stroke="#3498DB" stroke-width="1"/>
+    
+    <!-- Shoulder Pads (Enhanced) -->
+    <path d="M-16 -5 L-25 -2 L-23 5 L-16 8" fill="#5D6D7E" stroke="#3498DB" stroke-width="1"/>
+    <path d="M16 -5 L25 -2 L23 5 L16 8" fill="#5D6D7E" stroke="#3498DB" stroke-width="1"/>
+    
+    <!-- Head -->
+    <circle cx="0" cy="-5" r="10" fill="#F5D76E"/>
+    
+    <!-- Face -->
+    <circle cx="-4" cy="-5" r="1.5" fill="#34495E"/> <!-- Left Eye -->
+    <circle cx="4" cy="-5" r="1.5" fill="#34495E"/> <!-- Right Eye -->
+    <path d="M-3 0 L3 0" stroke="#34495E" stroke-width="1"/> <!-- Mouth -->
+    
+    <!-- Enhanced Belt with Pouches -->
+    <path d="M-12 10 L12 10" stroke="#34495E" stroke-width="4"/>
+    <rect x="-12" y="8" width="4" height="6" fill="#34495E" rx="1"/>
+    <rect x="8" y="8" width="4" height="6" fill="#34495E" rx="1"/>
+    
+    <!-- Legs with Enhanced Knee Pads -->
+    <path d="M-8 12 L-12 25" stroke="#2C3E50" stroke-width="6"/>
+    <path d="M8 12 L12 25" stroke="#2C3E50" stroke-width="6"/>
+    <ellipse cx="-10" cy="17" rx="4" ry="2" fill="#5D6D7E" stroke="#3498DB" stroke-width="0.5"/>
+    <ellipse cx="10" cy="17" rx="4" ry="2" fill="#5D6D7E" stroke="#3498DB" stroke-width="0.5"/>
+    
+    <!-- Direction Label -->
+    <text x="0" y="45" font-family="Arial" font-size="10" fill="#ECF0F1" text-anchor="middle">DOWN</text>
+  </g>
+  
+  <!-- DOWN-LEFT -->
+  <g transform="translate(290, 240)">
+    <!-- Body/Uniform with Enhanced Armor -->
+    <circle cx="0" cy="0" r="20" fill="#3A539B"/>
+    <path d="M-15 -10 C-15 -15, 15 -15, 15 -10" fill="#5D6D7E" opacity="0.6" stroke="#3498DB" stroke-width="1"/>
+    <path d="M-15 10 C-15 15, 15 15, 15 10" fill="#5D6D7E" opacity="0.6" stroke="#3498DB" stroke-width="1"/>
+    
+    <!-- Helmet with Enhanced Visor -->
+    <path d="M-12 -10 C-12 -20, 8 -20, 10 -12" fill="#34495E" stroke="#3498DB" stroke-width="1"/>
+    
+    <!-- Shoulder Pads (Enhanced) -->
+    <path d="M-12 -5 L-18 -6 L-18 2 L-14 5" fill="#5D6D7E" stroke="#3498DB" stroke-width="1"/>
+    <path d="M12 -5 L16 -6 L16 2 L14 5" fill="#5D6D7E" stroke="#3498DB" stroke-width="1"/>
+    
+    <!-- Head -->
+    <circle cx="-2" cy="-5" r="10" fill="#F5D76E"/>
+    
+    <!-- Face -->
+    <circle cx="-6" cy="-5" r="1.5" fill="#34495E"/> <!-- Eye -->
+    <path d="M-7 -1 L-2 -1" stroke="#34495E" stroke-width="1"/> <!-- Mouth -->
+    
+    <!-- Enhanced Belt with Pouches -->
+    <path d="M-12 10 L12 10" stroke="#34495E" stroke-width="4"/>
+    <rect x="-12" y="8" width="4" height="6" fill="#34495E" rx="1"/>
+    <rect x="8" y="8" width="4" height="6" fill="#34495E" rx="1"/>
+    
+    <!-- Legs (positioned for facing down-left) -->
+    <path d="M-8 12 L-10 25" stroke="#2C3E50" stroke-width="6"/>
+    <path d="M8 12 L12 25" stroke="#2C3E50" stroke-width="6"/>
+    <ellipse cx="-9" cy="17" rx="4" ry="2" fill="#5D6D7E" stroke="#3498DB" stroke-width="0.5"/>
+    <ellipse cx="10" cy="17" rx="4" ry="2" fill="#5D6D7E" stroke="#3498DB" stroke-width="0.5"/>
+    
+    <!-- Direction Label -->
+    <text x="0" y="45" font-family="Arial" font-size="10" fill="#ECF0F1" text-anchor="middle">DOWN-LEFT</text>
+  </g>
+  
+  <!-- LEFT -->
+  <g transform="translate(90, 340)">
+    <!-- Body/Uniform with Enhanced Armor -->
+    <circle cx="0" cy="0" r="20" fill="#3A539B"/>
+    <path d="M-10 -10 C-10 -15, 10 -15, 10 -10" fill="#5D6D7E" opacity="0.6" stroke="#3498DB" stroke-width="1"/>
+    <path d="M-10 10 C-10 15, 10 15, 10 10" fill="#5D6D7E" opacity="0.6" stroke="#3498DB" stroke-width="1"/>
+    
+    <!-- Helmet with Enhanced Visor -->
+    <path d="M-12 -10 C-12 -20, 8 -20, 8 -12" fill="#34495E" stroke="#3498DB" stroke-width="1"/>
+    
+    <!-- Shoulder Pads (Enhanced) -->
+    <path d="M-12 -5 L-18 -6 L-18 2 L-14 5" fill="#5D6D7E" stroke="#3498DB" stroke-width="1"/>
+    <path d="M12 -5 L16 -6 L16 2 L14 5" fill="#5D6D7E" stroke="#3498DB" stroke-width="1"/>
+    
+    <!-- Head -->
+    <circle cx="-2" cy="-5" r="10" fill="#F5D76E"/>
+    
+    <!-- Face -->
+    <circle cx="-6" cy="-5" r="1.5" fill="#34495E"/> <!-- Eye -->
+    <path d="M-7 -1 L-2 -1" stroke="#34495E" stroke-width="1"/> <!-- Mouth -->
+    
+    <!-- Enhanced Belt with Pouches -->
+    <path d="M-10 10 L10 10" stroke="#34495E" stroke-width="4"/>
+    <rect x="-10" y="8" width="4" height="6" fill="#34495E" rx="1"/>
+    <rect x="6" y="8" width="4" height="6" fill="#34495E" rx="1"/>
+    
+    <!-- Legs with Enhanced Knee Pads -->
+    <path d="M-5 12 L-5 25" stroke="#2C3E50" stroke-width="6"/>
+    <path d="M5 12 L5 25" stroke="#2C3E50" stroke-width="6"/>
+    <ellipse cx="-5" cy="17" rx="4" ry="2" fill="#5D6D7E" stroke="#3498DB" stroke-width="0.5"/>
+    <ellipse cx="5" cy="17" rx="4" ry="2" fill="#5D6D7E" stroke="#3498DB" stroke-width="0.5"/>
+    
+    <!-- Direction Label -->
+    <text x="0" y="45" font-family="Arial" font-size="10" fill="#ECF0F1" text-anchor="middle">LEFT</text>
+  </g>
+  
+  <!-- UP-LEFT -->
+  <g transform="translate(190, 340)">
+    <!-- Body/Uniform with Enhanced Armor -->
+    <circle cx="0" cy="0" r="20" fill="#3A539B"/>
+    <path d="M-20 -5 C-20 -13, 15 -13, 15 -5" fill="#5D6D7E" opacity="0.6" stroke="#3498DB" stroke-width="1"/>
+    <path d="M-20 5 C-20 13, 15 13, 15 5" fill="#5D6D7E" opacity="0.6" stroke="#3498DB" stroke-width="1"/>
+    
+    <!-- Helmet with Enhanced Visor -->
+    <path d="M-12 -8 C-12 -20, 10 -20, 10 -10" fill="#34495E" stroke="#3498DB" stroke-width="1"/>
+    
+    <!-- Shoulder Pads (Enhanced) -->
+    <path d="M-12 -5 L-18 -6 L-18 2 L-14 5" fill="#5D6D7E" stroke="#3498DB" stroke-width="1"/>
+    <path d="M16 -5 L25 -2 L23 5 L16 8" fill="#5D6D7E" stroke="#3498DB" stroke-width="1"/>
+    
+    <!-- Head -->
+    <circle cx="-2" cy="-5" r="10" fill="#F5D76E"/>
+    
+    <!-- Face -->
+    <circle cx="-6" cy="-7" r="1.5" fill="#34

@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+  <!-- Dark Background with Grid Pattern -->
+  <rect width="1000" height="600" fill="#1C2833"/>
+  <g opacity="0.05">
+    <path d="M0 0 L1000 0 M0 30 L1000 30 M0 60 L1000 60 M0 90 L1000 90 M0 120 L1000 120 M0 150 L1000 150 M0 180 L1000 180 M0 210 L1000 210 M0 240 L1000 240 M0 270 L1000 270 M0 300 L1000 300 M0 330 L1000 330 M0 360 L1000 360 M0 390 L1000 390 M0 420 L1000 420 M0 450 L1000 450 M0 480 L1000 480 M0 510 L1000 510 M0 540 L1000 540 M0 570 L1000 570" stroke="#ECF0F1" stroke-width="1"/>
+    <path d="M0 0 L0 600 M50 0 L50 600 M100 0 L100 600 M150 0 L150 600 M200 0 L200 600 M250 0 L250 600 M300 0 L300 600 M350 0 L350 600 M400 0 L400 600 M450 0 L450 600 M500 0 L500 600 M550 0 L550 600 M600 0 L600 600 M650 0 L650 600 M700 0 L700 600 M750 0 L750 600 M800 0 L800 600 M850 0 L850 600 M900 0 L900 600 M950 0 L950 600" stroke="#ECF0F1" stroke-width="1"/>
+  </g>
+  
+  <!-- Upgrade Screen Header -->
+  <rect x="0" y="0" width="1000" height="70" fill="#2C3E50" opacity="0.9"/>
+  <text x="500" y="45" font-family="Arial" font-size="32" fill="#ECF0F1" text-anchor="middle" font-weight="bold">ZOMBIE DEFENSE - UPGRADES</text>
+  
+  <!-- Points/Currency Display -->
+  <rect x="780" y="15" width="180" height="40" rx="5" fill="#1C2833" stroke="#F39C12" stroke-width="2"/>
+  <text x="800" y="42" font-family="Arial" font-size="22" fill="#F39C12" font-weight="bold">POINTS: 15,750</text>
+  
+  <!-- Wave Display -->
+  <rect x="40" y="15" width="140" height="40" rx="5" fill="#1C2833" stroke="#3498DB" stroke-width="2"/>
+  <text x="60" y="42" font-family="Arial" font-size="22" fill="#3498DB" font-weight="bold">WAVE: 12</text>
+  
+  <!-- Main Upgrade Categories -->
+  <rect x="40" y="90" width="150" height="50" rx="5" fill="#2C3E50" opacity="0.9"/>
+  <text x="115" y="122" font-family="Arial" font-size="20" fill="#ECF0F1" text-anchor="middle">WEAPONS</text>
+  
+  <rect x="200" y="90" width="150" height="50" rx="5" fill="#F39C12" opacity="0.9"/>
+  <text x="275" y="122" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">BARRICADE</text>
+  
+  <rect x="360" y="90" width="150" height="50" rx="5" fill="#2C3E50" opacity="0.9"/>
+  <text x="435" y="122" font-family="Arial" font-size="20" fill="#ECF0F1" text-anchor="middle">PLAYER</text>
+  
+  <!-- Left Panel - Barricade Status -->
+  <rect x="40" y="160" width="220" height="400" rx="5" fill="#34495E" opacity="0.9"/>
+  <text x="150" y="185" font-family="Arial" font-size="18" fill="#ECF0F1" text-anchor="middle">BARRICADE STATUS</text>
+  
+  <!-- Barricade Health Bar -->
+  <rect x="50" y="200" width="200" height="30" rx="5" fill="#2C3E50"/>
+  <rect x="50" y="200" width="140" height="30" rx="5" fill="#D35400"/>
+  <text x="150" y="220" font-family="Arial" font-size="14" fill="white" text-anchor="middle">HEALTH: 70%</text>
+  
+  <!-- Current Upgrades List -->
+  <text x="50" y="260" font-family="Arial" font-size="16" fill="#ECF0F1" font-weight="bold">ACTIVE UPGRADES:</text>
+  
+  <rect x="50" y="270" width="200" height="1" fill="#ECF0F1" opacity="0.3"/>
+  
+  <text x="60" y="290" font-family="Arial" font-size="14" fill="#ECF0F1">• Metal Reinforcement</text>
+  <text x="60" y="315" font-family="Arial" font-size="14" fill="#ECF0F1">• Double Reinforcement</text>
+  <text x="60" y="340" font-family="Arial" font-size="14" fill="#ECF0F1">• Damage Spikes (Lv.1)</text>
+  
+  <!-- Quick Action Buttons -->
+  <rect x="50" y="380" width="200" height="50" rx="5" fill="#E67E22"/>
+  <text x="150" y="410" font-family="Arial" font-size="16" fill="white" text-anchor="middle" font-weight="bold">REPAIR BARRICADE</text>
+  <text x="150" y="425" font-family="Arial" font-size="12" fill="white" text-anchor="middle">COST: 500 POINTS</text>
+  
+  <rect x="50" y="440" width="200" height="50" rx="5" fill="#3498DB"/>
+  <text x="150" y="470" font-family="Arial" font-size="16" fill="white" text-anchor="middle" font-weight="bold">EMERGENCY REBUILD</text>
+  <text x="150" y="485" font-family="Arial" font-size="12" fill="white" text-anchor="middle">COST: 2000 POINTS</text>
+  
+  <!-- Center Panel - Barricade Visualization -->
+  <rect x="280" y="160" width="420" height="400" rx="5" fill="#34495E" opacity="0.9"/>
+  
+  <!-- Barricade Preview -->
+  <rect x="300" y="180" width="380" height="170" rx="5" fill="#1C2833"/>
+  
+  <!-- Barricade Visualization -->
+  <g transform="translate(490, 265)">
+    <!-- Main Barricade Structure (with reinforcements) -->
+    <rect x="-170" y="-30" width="340" height="30" fill="#8B4513"/>
+    
+    <!-- Metal Reinforcements -->
+    <rect x="-150" y="-35" width="60" height="40" fill="#A9A9A9" opacity="0.7"/>
+    <rect x="-30" y="-35" width="60" height="40" fill="#A9A9A9" opacity="0.7"/>
+    <rect x="90" y="-35" width="60" height="40" fill="#A9A9A9" opacity="0.7"/>
+    
+    <!-- Spikes (Upgrade) -->
+    <path d="M-130 -30 L-125 -50 L-120 -30" fill="#A9A9A9" stroke="#777" stroke-width="1"/>
+    <path d="M-110 -30 L-105 -50 L-100 -30" fill="#A9A9A9" stroke="#777" stroke-width="1"/>
+    <path d="M-90 -30 L-85 -50 L-80 -30" fill="#A9A9A9" stroke="#777" stroke-width="1"/>
+    
+    <path d="M0 -30 L5 -50 L10 -30" fill="#A9A9A9" stroke="#777" stroke-width="1"/>
+    <path d="M20 -30 L25 -50 L30 -30" fill="#A9A9A9" stroke="#777" stroke-width="1"/>
+    
+    <path d="M110 -30 L115 -50 L120 -30" fill="#A9A9A9" stroke="#777" stroke-width="1"/>
+    <path d="M130 -30 L135 -50 L140 -30" fill="#A9A9A9" stroke="#777" stroke-width="1"/>
+    
+    <!-- Wooden Planks Background -->
+    <rect x="-160" y="-25" width="80" height="20" fill="#A0522D"/>
+    <rect x="-40" y="-25" width="80" height="20" fill="#A0522D"/>
+    <rect x="80" y="-25" width="80" height="20" fill="#A0522D"/>
+    
+    <!-- Damage Indicator -->
+    <path d="M-10 -30 L10 0" stroke="#8B4513" stroke-width="5"/>
+    <path d="M0 -30 L20 0" stroke="#8B4513" stroke-width="5"/>
+    <path d="M10 -30 L30 0" stroke="#8B4513" stroke-width="5"/>
+  </g>
+  
+  <!-- Barricade Stats -->
+  <text x="490" y="350" font-family="Arial" font-size="22" fill="#ECF0F1" text-anchor="middle" font-weight="bold">REINFORCED BARRICADE</text>
+  
+  <rect x="300" y="370" width="380" height="170" rx="5" fill="#1C2833"/>
+  
+  <!-- Stats Bars -->
+  <text x="320" y="395" font-family="Arial" font-size="15" fill="#ECF0F1">DURABILITY</text>
+  <rect x="420" y="383" width="200" height="16" rx="8" fill="#2C3E50"/>
+  <rect x="420" y="383" width="140" height="16" rx="8" fill="#E67E22"/>
+  
+  <text x="320" y="425" font-family="Arial" font-size="15" fill="#ECF0F1">SPIKE DAMAGE</text>
+  <rect x="420" y="413" width="200" height="16" rx="8" fill="#2C3E50"/>
+  <rect x="420" y="413" width="50" height="16" rx="8" fill="#E74C3C"/>
+  
+  <text x="320" y="455" font-family="Arial" font-size="15" fill="#ECF0F1">ZOMBIE SLOWDOWN</text>
+  <rect x="420" y="443" width="200" height="16" rx="8" fill="#2C3E50"/>
+  <rect x="420" y="443" width="90" height="16" rx="8" fill="#3498DB"/>
+  
+  <text x="320" y="485" font-family="Arial" font-size="15" fill="#ECF0F1">

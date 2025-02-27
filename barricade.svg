@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 150">
+  <!-- Background -->
+  <rect width="400" height="150" fill="#333" opacity="0.2"/>
+  
+  <!-- Main Barricade Structure (flat on ground, top-down view) -->
+  <rect x="20" y="60" width="360" height="30" fill="#8B4513"/>
+  
+  <!-- Wooden Planks (from top-down perspective) -->
+  <rect x="30" y="50" width="80" height="50" fill="#A0522D"/>
+  <rect x="160" y="55" width="80" height="40" fill="#A0522D"/>
+  <rect x="290" y="50" width="80" height="50" fill="#A0522D"/>
+  
+  <!-- Nails and Metal Reinforcements -->
+  <circle cx="50" cy="60" r="3" fill="#A9A9A9"/>
+  <circle cx="90" cy="60" r="3" fill="#A9A9A9"/>
+  <circle cx="180" cy="67" r="3" fill="#A9A9A9"/>
+  <circle cx="220" cy="67" r="3" fill="#A9A9A9"/>
+  <circle cx="310" cy="62" r="3" fill="#A9A9A9"/>
+  <circle cx="350" cy="62" r="3" fill="#A9A9A9"/>
+  
+  <!-- Metal Strips -->
+  <rect x="120" y="65" width="40" height="20" fill="#A9A9A9"/>
+  <rect x="240" y="65" width="40" height="20" fill="#A9A9A9"/>
+  
+  <!-- Damage Indicators (for later states) -->
+  <path d="M60 60 L80 80" stroke="#8B4513" stroke-width="4" opacity="0.6"/>
+  <path d="M200 60 L220 80" stroke="#8B4513" stroke-width="4" opacity="0.6"/>
+  <path d="M320 60 L340 80" stroke="#8B4513" stroke-width="4" opacity="0.6"/>
+  
+  <!-- Wood Grain Detail -->
+  <path d="M40 50 L40 100" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+  <path d="M60 50 L60 100" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+  <path d="M80 50 L80 100" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+  
+  <path d="M170 55 L170 95" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+  <path d="M190 55 L190 95" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+  <path d="M210 55 L210 95" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+  
+  <path d="M300 50 L300 100" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+  <path d="M320 50 L320 100" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+  <path d="M340 50 L340 100" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Shadows (to create depth) -->
+  <rect x="20" y="90" width="360" height="5" fill="#000" opacity="0.2"/>
+  
+  <!-- Barbed Wire (Advanced Upgrade - visible from top) -->
+  <path d="M20 50 C40 40, 60 60, 80 50 C100 40, 120 60, 140 50 C160 40, 180 60, 200 50 C220 40, 240 60, 260 50 C280 40, 300 60, 320 50 C340 40, 360 60, 380 50" stroke="#C0C0C0" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M30 45 L30 55 M70 45 L70 55 M110 45 L110 55 M150 45 L150 55 M190 45 L190 55 M230 45 L230 55 M270 45 L270 55 M310 45 L310 55 M350 45 L350 55" stroke="#C0C0C0" stroke-width="1" opacity="0.4"/>
+</svg>
